@@ -30,6 +30,7 @@ export default function App() {
       console.log('Successfully signed up');
     } else {
       console.log("Passwords don't match")
+      return
     }
     if (formData.okayToEmail) {
       console.log("Thanks for signing up for our newsletter!")
